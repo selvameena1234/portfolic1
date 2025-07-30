@@ -67,6 +67,8 @@ font-size: 40px;
     gap:10px;
     padding: 200px;
     height:850px;
+    font-family: cursive;    
+
     
     
 }
@@ -74,7 +76,10 @@ font-size: 40px;
 .about1{
     
     text-align:center;
+        font-family: cursive;    
+
     padding: 300px;
+    
     
 }
 .study1{
