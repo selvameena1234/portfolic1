@@ -1,0 +1,135 @@
+.menu{
+    margin-left: 800px;
+    color: beige;
+    position: sticky;
+    top:0;
+    
+   
+    
+    
+}
+.name{
+    position: relative;
+}
+.n{
+    position: absolute;
+    top: 500px;
+        left: 1200px;
+        
+}
+body{
+    position: sticky;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  font-size: 33px;
+  font-family:'Times New Roman', Times, serif;
+  
+}
+button{
+    background-color:brown;
+    border-radius: 12px;
+}
+button:hover{
+    background-color: greenyellow;
+}
+menu {
+    margin-left: 900px;
+    position: sticky;
+    top: 0;
+    background-color: lightslategray;
+    width: 600px;
+    
+
+
+
+}
+
+#about{
+    height:900px;
+    
+    
+    background:linear-gradient(darkblue,purple);
+    width:800px;
+    background-repeat: no-repeat;
+    color:white;
+    width:1500px;
+font-family: cursive;    
+font-size: 40px;
+}
+
+#projects{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    background: linear-gradient(purple,lightpink);
+    gap:10px;
+    padding: 200px;
+    height:850px;
+    
+    
+}
+
+.about1{
+    
+    text-align:center;
+    padding: 300px;
+    
+}
+.study1{
+    padding: 20px;
+    background:linear-gradient(lightpink,purple);
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    margin-left:40px;
+    height:200px;
+    margin:50px;
+    
+}
+.study2{
+     background:linear-gradient(lightpink,purple);
+     height:200px;
+    margin:50px;
+}
+#resume{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap:164px;
+    margin:30px;
+    padding: 40px;
+    
+    
+}
+
+.study3{
+     background:linear-gradient(lightpink,purple);
+     height:200px;
+    margin:50px;
+}
+#contact{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    background:linear-gradient(purple,lightpink);
+    padding: 80px;
+    margin:34px;
+    margin-bottom:340px;
+}
+#skills{
+    height: 700px;
+    
+    background:linear-gradient(lightpink,purple);
+    width:1500px;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    padding: 23px;
+}
+.image1{
+    margin:30px;
+}
+.image2{
+    margin:30px;
+}
+.image3{
+    margin:30px;
+}
