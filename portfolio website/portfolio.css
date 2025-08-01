@@ -133,12 +133,15 @@ font-size: 40px;
 
 }
 #contact{
-    font-size: 12px;
+    font-size: 22px;
     font-family: cursive;    
     background:linear-gradient(purple,lightpink);
-    padding: 80px;
+    padding: 70px;
     margin:34px;
-    margin-bottom:340px;
+    margin-bottom:380px;
+        width:60%;
+    height:800px;
+
         font-family: cursive;    
 
 }
@@ -149,7 +152,7 @@ font-size: 40px;
     width:1500px;
     display: grid;
     grid-template-columns: repeat(2,2fr);
-    padding: 23px;
+    padding: 93px;
         font-family: cursive;    
 
 }
@@ -162,3 +165,44 @@ font-size: 40px;
 .image3{
     margin:30px;
 }
+input[type="text"] {
+  width: 500px; 
+  padding: 10px;
+  font-size: 16px;
+}
+input[type="email"] {
+  width: 500px; 
+  padding: 10px;
+  font-size: 16px;
+}
+
+textarea [id="message"]{
+     width: 200px; 
+  padding: 10px;
+  font-size: 16px;
+}
+    
+
+    @media (max-width: 600px) {
+      .contact-form {
+        padding: 15px;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
