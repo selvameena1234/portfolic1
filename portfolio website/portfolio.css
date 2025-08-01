@@ -158,9 +158,5 @@ textarea [id="message"]{
 }
     
 
-    @media (max-width: 600px) {
-      .contact-form {
-        padding: 15px;
-      }
-    }
+    
 
