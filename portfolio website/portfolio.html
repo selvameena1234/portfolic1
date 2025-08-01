@@ -188,29 +188,27 @@
 <br>
 <br>
     
-  <section id="contact">
-    <label>
-      <h3>Name:<br></h3>
-    </label>
-    <input type="text" id="text" name="text"><br>
-    <br>
-    <label>
-      <h3>E-mail:</h3>
-    </label>
-    <input type="password" id="password" name="password">
-    <br><br>
-    <label>
-      <h3>Phone Number:</h3>
-    </label>
-    <input type="number" id="number" name="number">
-    <br><br>
-    <button type="button">SUBMIT</button>
-    <br><br>
-
-    
-  </section>
+  
   </div>
+<section id="contact">
+  
+  <h2>Contact Us</h2>
+  <form action="your-backend-endpoint" method="POST">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br>
 
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="subject">Subject:</label><br>
+    <input type="text" id="subject" name="subject"><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" required></textarea><br>
+
+    <button type="submit">Send Message</button>
+  </form>
+  </section>
 
 
 
