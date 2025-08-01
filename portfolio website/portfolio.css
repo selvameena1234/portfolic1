@@ -3,47 +3,37 @@
     color: beige;
     position: sticky;
     top:0;
-        font-family: cursive;    
-
+    
    
     
     
 }
 .name{
     position: relative;
-        font-family: cursive;    
-
 }
 .n{
     position: absolute;
     top: 500px;
         left: 1200px;
-            font-family: cursive;    
-
+        
 }
 body{
     position: sticky;
-        font-family: cursive;    
-
 }
 .centered {
   position: absolute;
   top: 50%;
   left: 70%;
   font-size: 33px;
-  font-family:cursive;
+  font-family:'Times New Roman', Times, serif;
   
 }
 button{
     background-color:brown;
     border-radius: 12px;
-        font-family: cursive;    
-
 }
 button:hover{
     background-color: greenyellow;
-        font-family: cursive;    
-
 }
 menu {
     margin-left: 900px;
@@ -51,8 +41,6 @@ menu {
     top: 0;
     background-color: lightslategray;
     width: 600px;
-        font-family: cursive;    
-
     
 
 
@@ -79,8 +67,6 @@ font-size: 40px;
     gap:10px;
     padding: 200px;
     height:850px;
-    font-family: cursive;    
-
     
     
 }
@@ -88,10 +74,7 @@ font-size: 40px;
 .about1{
     
     text-align:center;
-        font-family: cursive;    
-
     padding: 300px;
-    
     
 }
 .study1{
@@ -102,16 +85,12 @@ font-size: 40px;
     margin-left:40px;
     height:200px;
     margin:50px;
-        font-family: cursive;    
-
     
 }
 .study2{
      background:linear-gradient(lightpink,purple);
      height:200px;
     margin:50px;
-        font-family: cursive;    
-
 }
 #resume{
     display: grid;
@@ -119,8 +98,8 @@ font-size: 40px;
     gap:164px;
     margin:30px;
     padding: 40px;
-        font-family: cursive;    
-
+    font-family: cursive;
+    
     
     
 }
@@ -129,21 +108,17 @@ font-size: 40px;
      background:linear-gradient(lightpink,purple);
      height:200px;
     margin:50px;
-        font-family: cursive;    
-
 }
 #contact{
     font-size: 22px;
-    font-family: cursive;    
     background:linear-gradient(purple,lightpink);
     padding: 70px;
-    margin:34px;
-    margin-bottom:380px;
-        width:60%;
+
+    
+    margin:380px;
+    width:60%;
+    font-family: cursive;
     height:800px;
-
-        font-family: cursive;    
-
 }
 #skills{
     height: 700px;
@@ -153,8 +128,7 @@ font-size: 40px;
     display: grid;
     grid-template-columns: repeat(2,2fr);
     padding: 93px;
-        font-family: cursive;    
-
+    height:800px;
 }
 .image1{
     margin:30px;
@@ -165,6 +139,7 @@ font-size: 40px;
 .image3{
     margin:30px;
 }
+
 input[type="text"] {
   width: 500px; 
   padding: 10px;
@@ -188,21 +163,4 @@ textarea [id="message"]{
         padding: 15px;
       }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
